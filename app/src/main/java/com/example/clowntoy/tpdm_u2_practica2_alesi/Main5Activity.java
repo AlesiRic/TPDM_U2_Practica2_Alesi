@@ -13,26 +13,23 @@ import android.widget.ListView;
 
 public class Main5Activity extends AppCompatActivity {
 
+
+    Button salir;
     Seguro[] vector;
     ListView lista;
-    Button salir;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_main);
         lista=findViewById(R.id.listaPropietarios);
+
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 mostrarAlerta(position);
             }
         });
-        salir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                finish();
-            }
-        });
+
     }
 
     @Override

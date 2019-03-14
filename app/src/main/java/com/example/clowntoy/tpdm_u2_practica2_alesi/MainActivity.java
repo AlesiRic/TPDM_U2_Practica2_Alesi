@@ -60,8 +60,17 @@ public class MainActivity extends AppCompatActivity {
             case R.id.ActInsertPro:Intent intentA=new Intent(this,Main2Activity.class);
                 startActivity(intentA);
                 break;
-            case R.id.ActConsSeg:Intent intentB=new Intent(this,Main3Activity.class);
+            case R.id.ActConsPro:Intent intentB=new Intent(this,Main3Activity.class);
                 startActivity(intentB);
+                break;
+            case R.id.listaSeguros:Intent intentC=new Intent(this,Main5Activity.class);
+                startActivity(intentC);
+                break;
+            case R.id.ActInsertSeg:Intent intentD=new Intent(this,Main6Activity.class);
+                startActivity(intentD);
+                break;
+            case R.id.ActConsSeg:Intent intentE=new Intent(this,Main7Activity.class);
+                startActivity(intentE);
                 break;
             default:break;
         }

@@ -32,14 +32,17 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEditSeg"/>
+        android:id="@+id/btnEditSeg"
+        android:text="Editar"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnDeletSeg"/>
+        android:id="@+id/btnDeletSeg"
+        android:text="Eliminar"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/btnCancelEDSeg"/>
+        android:id="@+id/btnCancelEDSeg"
+        android:text="Cancelar"/>
 
 </LinearLayout>
