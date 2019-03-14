@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id del Seguro"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idConsReg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ConsBtnReg"
+        android:text="Consultar"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="Id: "/>
+            <TextView android:id="@+id/consIdReg"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Descripcion: "/>
+            <TextView android:id="@+id/consDesReg"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Fecha: "/>
+            <TextView android:id="@+id/consFecReg"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Tipo: "/>
+            <TextView android:id="@+id/consTipReg"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Teléfono: "/>
+            <TextView android:id="@+id/consTelReg"/>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:id="@+id/consSalirReg"/>
+
+
+</LinearLayout>

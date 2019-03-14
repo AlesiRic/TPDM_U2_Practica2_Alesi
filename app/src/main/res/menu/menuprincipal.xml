@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:id="@+id/ActInsertPro" android:title="Insertar Propietario"/>
+        <item android:id="@+id/ActConsPro" android:title="Consultar Propietario"/>
+        <item android:id="@+id/listaSeguros" android:title="Ver seguros"/>
+        <item android:id="@+id/ActInsertSeg" android:title="Insertar Seguros"/>
+        <item android:id="@+id/ActConsSeg" android:title="Consultar Seguros"/>
+    </group>
+</menu>

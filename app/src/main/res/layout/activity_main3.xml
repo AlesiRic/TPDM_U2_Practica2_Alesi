@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número telefónico:"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/telConsPro"
+        android:inputType="phone"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/consPro"
+        android:text="Buscar"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView android:text="Número telefónico: "/>
+            <TextView android:id="@+id/numConsPro"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Nombre: "/>
+            <TextView android:id="@+id/nomConsPro"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="Fecha: "/>
+            <TextView android:id="@+id/fecConsPro"/>
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:id="@+id/canConsPro"/>
+</LinearLayout>
